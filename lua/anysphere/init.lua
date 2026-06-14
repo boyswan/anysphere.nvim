@@ -286,7 +286,8 @@ function M.load(opts)
     ["@variable.builtin.rust"] = { fg = p.fg },
     ["@variable.parameter.python"] = { fg = p.yellow2 },
 
-    ["@lsp.type.class"] = { fg = p.steel },
+    ["@lsp.type.class"] = { fg = p.peach },
+    ["@lsp.type.class.go"] = { fg = p.peach },
     ["@lsp.type.decorator"] = { fg = p.green2 },
     ["@lsp.type.enum"] = { fg = p.peach },
     ["@lsp.type.enumMember"] = { fg = p.fg },
@@ -306,6 +307,8 @@ function M.load(opts)
     ["@lsp.typemod.function.declaration"] = function_declaration_style,
     ["@lsp.typemod.method.declaration"] = function_declaration_style,
     ["@lsp.typemod.property.declaration"] = { fg = p.purple2, bold = true },
+    ["@lsp.typemod.class.declaration"] = { fg = p.peach },
+    ["@lsp.typemod.class.declaration.go"] = { fg = p.peach },
     ["@lsp.typemod.struct.declaration"] = { fg = p.peach },
     ["@lsp.typemod.struct.declaration.go"] = { fg = p.peach },
     ["@lsp.typemod.type.declaration"] = { fg = p.peach },

@@ -18,7 +18,7 @@ Neovim highlights use opaque RGB colors.
 
 ```lua
 {
-  "yourname/anysphere-nvim",
+  "boyswan/anysphere-nvim",
   priority = 1000,
   lazy = false,
   config = function()
@@ -42,7 +42,7 @@ Add this to `lua/plugins/anysphere.lua`:
 ```lua
 return {
   {
-    "yourname/anysphere-nvim",
+    "boyswan/anysphere-nvim",
     priority = 1000,
     lazy = false,
     opts = {
@@ -67,7 +67,7 @@ return {
 
 ```lua
 use({
-  "yourname/anysphere-nvim",
+  "boyswan/anysphere-nvim",
   config = function()
     vim.cmd.colorscheme("anysphere")
   end,

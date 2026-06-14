@@ -18,7 +18,7 @@ Neovim highlights use opaque RGB colors.
 
 ```lua
 {
-  "boyswan/anysphere-nvim",
+  "boyswan/anysphere.nvim",
   priority = 1000,
   lazy = false,
   config = function()
@@ -42,7 +42,7 @@ Add this to `lua/plugins/anysphere.lua`:
 ```lua
 return {
   {
-    "boyswan/anysphere-nvim",
+    "boyswan/anysphere.nvim",
     priority = 1000,
     lazy = false,
     opts = {
@@ -67,7 +67,7 @@ return {
 
 ```lua
 use({
-  "boyswan/anysphere-nvim",
+  "boyswan/anysphere.nvim",
   config = function()
     vim.cmd.colorscheme("anysphere")
   end,
@@ -82,7 +82,7 @@ require("anysphere").setup()
 vim.cmd.colorscheme("anysphere")
 ```
 
-## Audit
+## Audi.
 
 If the Cursor source theme is checked out beside this plugin, compare the color
 sets with:

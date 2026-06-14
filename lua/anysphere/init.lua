@@ -1,7 +1,7 @@
 local M = {}
 
 local defaults = {
-  bold_functions = true,
+  bold_functions = false,
   italic_comments = true,
   italic_keywords = true,
   terminal_colors = true,
@@ -266,6 +266,7 @@ function M.load(opts)
     ["@variable.parameter.builtin"] = { fg = p.peach },
 
     ["@constant.builtin.python"] = { fg = p.cyan2 },
+    ["@constant.go"] = { fg = p.purple },
     ["@constructor.go"] = { fg = p.peach },
     ["@constructor.python"] = { fg = p.steel },
     ["@function.builtin.go"] = { fg = p.peach },
@@ -279,6 +280,7 @@ function M.load(opts)
     ["@keyword.operator.go"] = { fg = p.cyan },
     ["@keyword.operator.rust"] = { fg = p.cyan },
     ["@operator.assignment.go"] = { fg = p.peach },
+    ["@operator.logical.go"] = { fg = p.fg },
     ["@keyword.import.go"] = { fg = p.cyan },
     ["@property.go"] = { fg = p.fg },
     ["@punctuation.special.go"] = { fg = p.cyan },
@@ -326,6 +328,7 @@ function M.load(opts)
     ["@lsp.typemod.variable.globalScope"] = { fg = p.green2 },
     ["@lsp.typemod.variable.readonly"] = { fg = p.fg_sidebar },
     ["@lsp.typemod.variable.constant"] = { fg = p.cyan },
+    ["@lsp.typemod.variable.constant.go"] = { fg = p.purple },
     ["@lsp.typemod.function.defaultLibrary"] = { fg = p.cyan2 },
     ["@lsp.typemod.method.defaultLibrary"] = { fg = p.cyan2 },
 

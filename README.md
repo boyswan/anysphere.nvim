@@ -23,7 +23,7 @@ Neovim highlights use opaque RGB colors.
   lazy = false,
   config = function()
     require("anysphere").setup({
-      bold_functions = true,
+      bold_functions = false,
       italic_comments = true,
       italic_keywords = true,
       terminal_colors = true,
@@ -46,7 +46,7 @@ return {
     priority = 1000,
     lazy = false,
     opts = {
-      bold_functions = true,
+      bold_functions = false,
       italic_comments = true,
       italic_keywords = true,
       terminal_colors = true,

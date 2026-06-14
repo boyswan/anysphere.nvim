@@ -4,6 +4,19 @@
   (#eq? @type.any.go "any")
   (#set! priority 110))
 
+([
+  "!"
+  "!="
+  "&&"
+  "||"
+  "=="
+  "<"
+  "<="
+  ">"
+  ">="
+] @operator.logical.go
+  (#set! priority 110))
+
 [
   ":="
   "="

@@ -267,6 +267,7 @@ function M.load(opts)
 
     ["@constant.builtin.python"] = { fg = p.cyan2 },
     ["@constant.go"] = { fg = p.purple },
+    ["@constant.nil.go"] = { fg = p.fg },
     ["@constructor.go"] = { fg = p.peach },
     ["@constructor.python"] = { fg = p.steel },
     ["@function.builtin.go"] = { fg = p.peach },
@@ -284,6 +285,7 @@ function M.load(opts)
     ["@keyword.import.go"] = { fg = p.cyan },
     ["@property.go"] = { fg = p.fg },
     ["@punctuation.special.go"] = { fg = p.cyan },
+    ["@module.import_alias.go"] = { fg = p.fg },
     ["@module.go"] = { fg = p.peach },
     ["@punctuation.special.markdown"] = { fg = p.fg },
     ["@string.special.url.markdown"] = { fg = p.purple, underline = true },
@@ -292,6 +294,7 @@ function M.load(opts)
     ["@type.builtin.typescript"] = { fg = p.cyan2 },
     ["@type.builtin.tsx"] = { fg = p.cyan2 },
     ["@variable.member.go"] = { fg = p.fg },
+    ["@variable.member.struct.go"] = { fg = p.purple2 },
     ["@variable.builtin.rust"] = { fg = p.fg },
     ["@variable.parameter.python"] = { fg = p.yellow2 },
 
